@@ -5,4 +5,4 @@
 * HOC
 * React.memo
 * React.cloneElement
-* Children
+* React Children

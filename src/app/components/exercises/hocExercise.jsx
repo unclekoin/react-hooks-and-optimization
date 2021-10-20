@@ -5,7 +5,7 @@ const HocExercise = () => {
     return (
         <CollapseWrapper title="Упражнение">
             <p className="mt-3">
-                Вам необзодимо реализовать компонент{" "}
+                Вам необходимо реализовать компонент{" "}
                 <code>SimpleComponent</code>, который:
             </p>
             <ul>

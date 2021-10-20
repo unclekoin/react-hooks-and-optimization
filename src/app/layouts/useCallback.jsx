@@ -17,10 +17,12 @@ const UseCalbackExample = () => {
                     <p>
                         Аргументы: callBack , [array of dependencies]
                         <br />
+                        С помощью useCallback можно избежать повторные
+                        инициализации функций при каждом рендере.
+                        <br/>
                         Возвращает: Закэшированное значение выполненной функции,
                         которое обновляется только при изменении зависимостей.
                     </p>
-
                     <figcaption>
                         <cite title="reactjs.org">reactjs.org</cite>
                     </figcaption>

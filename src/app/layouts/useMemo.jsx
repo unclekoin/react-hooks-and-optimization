@@ -4,6 +4,7 @@ import ComplexCalculateExample from "../components/examples/useMemo/complexCalcu
 import BlockQuote from "../components/common/blockQuote";
 import Title from "../components/common/typografy/title";
 import Subtitle from "../components/common/typografy/subtitle";
+import CardWrapper from "../components/common/Card";
 import Divider from "../components/common/divider";
 const UseMemoExample = () => {
     return (
@@ -40,6 +41,7 @@ const UseMemoExample = () => {
                     <p>
                         <code>useMemo</code> Возвращает мемоизированное значение
                     </p>
+                    <p>С помощью useMemo можно избежать дорогостоящих вычислений при каждом рендере. Применяется, когда необходимо сохранить РЕЗУЛЬТАТ сложновычесляемой функции! Если нужно сохранить функцию применяют useCallback.</p>
                     <p>
                         Передайте «создающую» функцию и массив зависимостей.
                         useMemo будет повторно вычислять мемоизированное
@@ -52,6 +54,11 @@ const UseMemoExample = () => {
                     </figcaption>
                 </BlockQuote>
             </CollapseWrapper>
+            <CardWrapper>
+                <i className="bi bi-lightbulb"></i>{" "}
+                <code>useCallback(fn, deps)</code> ~{" "}
+                <code>useMemo(() =&gt; fn, deps)</code>
+            </CardWrapper>
             <Divider />
             <Subtitle>Examples</Subtitle>
             <ComplexCalculateExample />

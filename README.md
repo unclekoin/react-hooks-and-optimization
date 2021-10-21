@@ -5,4 +5,6 @@
 * HOC
 * React.memo
 * React.cloneElement
-* React Children
+* React.Children
+
+* Deploy: https://unclekoin.github.io/react-hooks-and-optimization/

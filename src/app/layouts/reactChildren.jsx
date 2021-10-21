@@ -6,6 +6,7 @@ import Divider from "../components/common/divider";
 import Subtitle from "../components/common/typografy/subtitle";
 import ReactChildrenExample from "../components/examples/children/reactChildrenExample";
 import ChildrenExercise from "../components/exercises/childrenExercise";
+import ChildrenSolution from "../components/exercises/childrenSolution/childrenSolution";
 const ReactChildren = () => {
     return (
         <>
@@ -45,7 +46,7 @@ const ReactChildren = () => {
                 <div className="card-body">
                     <i className="bi bi-lightbulb"></i>Если{" "}
                     <code>children</code> — это
-                    <code>Fragment</code>, он будет рассматриваться как целый
+                    <code> Fragment</code>, он будет рассматриваться как целый
                     потомок, а элементы внутри не будут пройдены
                 </div>
             </div>
@@ -104,6 +105,8 @@ const ReactChildren = () => {
             <Divider />
             <Subtitle>Упражнения</Subtitle>
             <ChildrenExercise />
+            <Subtitle>Решение</Subtitle>
+            <ChildrenSolution />
         </>
     );
 };

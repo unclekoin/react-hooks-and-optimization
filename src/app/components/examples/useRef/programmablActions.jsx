@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import CardWrapper from "../../common/Card";
 import Divider from "../../common/divider";
 import SmallTitle from "../../common/typografy/smallTitle";
+
 const ProgrammablActionsExample = () => {
     const inputRef = useRef();
     const [width, setWidth] = useState("");
